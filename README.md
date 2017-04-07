@@ -30,7 +30,7 @@ Gitbook 提供了非常棒的在线编辑功能, 所以想贡献的同学可以�
 
 成员 | 联系方式 | Github
 :------|:------|:------
-ityouknow| ityouknow@126.com | [Github](https://github.com/ityouknow)
+ityouknow| ityouknow@126.com | [Github](https://github.com/justdojava/it-interview)
 
 
 > 本书绝大多数内容来源于互联网整理于此，如有侵权请联系ityouknow@126.com
