@@ -1,7 +1,7 @@
 # IT Interview
 
-### [阅读地址](https://ityouknow.gitbooks.io/it-interview)
-### [Github托管地址](https://github.com/ityouknow/it-interview)
+### [阅读地址](https://justdojava.gitbooks.io/it-interview)
+### [Github托管地址](https://github.com/justdojava/it-interview)
 
 
 准备找时间整理一下IT技术栈，大概分几块：
