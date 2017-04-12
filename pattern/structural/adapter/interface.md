@@ -13,3 +13,47 @@ public interface Sourceable {
     public void method2();  
 }  
 ```
+
+抽象类Wrapper2：
+
+```java
+public abstract class Wrapper2 implements Sourceable{  
+      
+    public void method1(){}  
+    public void method2(){}  
+}  
+```
+
+```java
+public class SourceSub1 extends Wrapper2 {  
+    public void method1(){  
+        System.out.println("the sourceable interface's first Sub1!");  
+    }  
+}  
+```
+
+```java
+public class SourceSub2 extends Wrapper2 {  
+    public void method2(){  
+        System.out.println("the sourceable interface's second Sub2!");  
+    }  
+} 
+```
+
+```java
+public class WrapperTest {  
+  
+    public static void main(String[] args) {  
+        Sourceable source1 = new SourceSub1();  
+        Sourceable source2 = new SourceSub2();  
+          
+        source1.method1();  
+        source1.method2();  
+        source2.method1();  
+        source2.method2();  
+    }  
+}  
+```
+
+
+
