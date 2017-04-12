@@ -4,3 +4,62 @@
 
 ![](https://justdojava.gitbooks.io/it-interview/img/pattern/abstract_factory.PNG)
 
+看代码：
+
+```java
+public interface Sender {  
+    public void Send();  
+}  
+```
+
+两个实现类：
+
+```java
+public class MailSender implements Sender {  
+    @Override  
+    public void Send() {  
+        System.out.println("this is mailsender!");  
+    }  
+}  
+```
+
+```java
+public class SmsSender implements Sender {  
+  
+    @Override  
+    public void Send() {  
+        System.out.println("this is sms sender!");  
+    }  
+}  
+```
+
+工厂类接口
+
+```java
+public interface Provider {  
+    public Sender produce();  
+}  
+```
+
+两个工厂类：
+
+```java
+public class SendMailFactory implements Provider {  
+    @Override  
+    public Sender produce(){  
+        return new MailSender();  
+    }  
+}  
+```
+
+```javapublic class SendSmsFactory implements Provider{  
+    @Override  
+    public Sender produce() {  
+        return new SmsSender();  
+    }  
+}  
+```
+
+测试：
+
+
