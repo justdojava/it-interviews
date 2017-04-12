@@ -51,6 +51,7 @@ public class SendMailFactory implements Provider {
     }  
 }  
 ```
+单独
 
 ``` java
 public class SendSmsFactory implements Provider{  
