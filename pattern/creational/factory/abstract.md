@@ -63,4 +63,16 @@ public class SendSmsFactory implements Provider{
 
 测试：
 
+```java
+public class Test {  
+  
+    public static void main(String[] args) {  
+        Provider provider = new SendMailFactory();  
+        Sender sender = provider.produce();  
+        sender.Send();  
+    }  
+}  
+```
+
+
 
