@@ -55,5 +55,15 @@ public class WrapperTest {
 }  
 ```
 
+测试输出：
+
+```
+the sourceable interface's first Sub1!
+the sourceable interface's second Sub2!
+
+```
+
+
+
 
 
