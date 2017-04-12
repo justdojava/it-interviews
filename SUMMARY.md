@@ -91,6 +91,7 @@
       * [简单工厂](pattern/creational/factory/simple.md)
       * [抽象工厂](pattern/creational/factory/abstract.md)
     * [建造者模式](pattern/creational/builder.md)
+    * [原型模式](pattern/creational/prototype.md)
   * [structural](pattern/structural/README.md)
   * [behavioral](pattern/behavioral/README.md)
 
