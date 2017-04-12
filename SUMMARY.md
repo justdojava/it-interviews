@@ -95,5 +95,9 @@
     * [建造者模式](pattern/creational/builder.md)
     * [原型模式](pattern/creational/prototype.md)
   * [structural](pattern/structural/README.md)
+    * [适配器模式](pattern/structural/adapter/README.md)
+      * [类的适配器模式](pattern/structural/adapter/class.md)
+      * [对象的适配器模式](pattern/structural/adapter/object.md)
+      * [接口的适配器模式](pattern/structural/adapter/interface.md)
   * [behavioral](pattern/behavioral/README.md)
 
