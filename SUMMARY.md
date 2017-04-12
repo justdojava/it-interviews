@@ -90,6 +90,8 @@
       * [简单工厂](pattern/creational/factory/simple.md)
       * [抽象工厂](pattern/creational/factory/abstract.md)
     * [单例模式](pattern/creational/singleton/README.md)
+      * [单例模式实现方法](pattern/creational/singleton/impl.md)
+      * [双检索](pattern/creational/singleton/disadvan.md)
     * [建造者模式](pattern/creational/builder.md)
     * [原型模式](pattern/creational/prototype.md)
   * [structural](pattern/structural/README.md)
