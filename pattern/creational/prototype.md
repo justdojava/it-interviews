@@ -70,5 +70,6 @@ public class Prototype implements Cloneable {
 }  
 ```
 
+由于ArrayList不是基本类型，所以成员变量list，不会被拷贝，需要我们自己实现深拷贝，幸运的是Java提供的大部分的容器类都实现了Cloneable接口。所以实现深拷贝并不是特别困难。
 
 参考：http://blog.csdn.net/zhengzhb/article/details/7393528
