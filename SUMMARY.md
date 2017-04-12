@@ -83,7 +83,7 @@
   * [ORM](database/orm.md)
   * [事务](database/transaction.md)
 * [设计模式](pattern/README.md)
-  * [base](database/README.md)
+  * [base](pattern/base/README.md)
     * [principles](pattern/base/principles.md)
   * [creational](pattern/creational/README.md)
     * [工厂模式](pattern/creational/factory/README.md)
