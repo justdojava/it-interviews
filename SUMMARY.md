@@ -88,6 +88,7 @@
   * [creational](pattern/creational/README.md)
     * [工厂模式](pattern/creational/factory/README.md)
       * [简单工厂](pattern/creational/factory/simple.md)
+      * [抽象工厂](pattern/creational/factory/abstract.md)
     * [单例模式](pattern/creational/singleton/README.md)
   * [structural](pattern/structural/README.md)
   * [behavioral](pattern/behavioral/README.md)
