@@ -86,10 +86,11 @@
   * [base](pattern/base/README.md)
     * [principles](pattern/base/principles.md)
   * [creational](pattern/creational/README.md)
+    * [单例模式](pattern/creational/singleton/README.md)
     * [工厂模式](pattern/creational/factory/README.md)
       * [简单工厂](pattern/creational/factory/simple.md)
       * [抽象工厂](pattern/creational/factory/abstract.md)
-    * [单例模式](pattern/creational/singleton/README.md)
+    * [建造者模式](pattern/creational/builder.md)
   * [structural](pattern/structural/README.md)
   * [behavioral](pattern/behavioral/README.md)
 
