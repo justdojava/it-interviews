@@ -43,7 +43,7 @@ public interface Provider {
 
 两个工厂类：
 
-```java
+``` java
 public class SendMailFactory implements Provider {  
     @Override  
     public Sender produce(){  
@@ -52,7 +52,7 @@ public class SendMailFactory implements Provider {
 }  
 ```
 
-```java
+``` java
 public class SendSmsFactory implements Provider{  
     @Override  
     public Sender produce() {  
