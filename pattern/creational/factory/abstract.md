@@ -52,7 +52,8 @@ public class SendMailFactory implements Provider {
 }  
 ```
 
-```javapublic class SendSmsFactory implements Provider{  
+```java
+public class SendSmsFactory implements Provider{  
     @Override  
     public Sender produce() {  
         return new SmsSender();  
