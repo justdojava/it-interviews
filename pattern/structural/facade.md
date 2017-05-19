@@ -4,3 +4,47 @@
 
 ![](https://justdojava.gitbooks.io/it-interview/img/pattern/facade.PNG)
 
+我们先看下实现类：
+
+```java
+public class CPU {  
+      
+    public void startup(){  
+        System.out.println("cpu startup!");  
+    }  
+      
+    public void shutdown(){  
+        System.out.println("cpu shutdown!");  
+    }  
+}    
+```
+
+```java
+public class Memory {  
+      
+    public void startup(){  
+        System.out.println("memory startup!");  
+    }  
+      
+    public void shutdown(){  
+        System.out.println("memory shutdown!");  
+    }  
+}     
+```
+
+```java
+public class Disk {  
+      
+    public void startup(){  
+        System.out.println("disk startup!");  
+    }  
+      
+    public void shutdown(){  
+        System.out.println("disk shutdown!");  
+    }  
+}      
+```
+
+
+
+
