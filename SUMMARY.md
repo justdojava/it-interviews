@@ -100,5 +100,6 @@
       * [对象的适配器模式](pattern/structural/adapter/object.md)
       * [接口的适配器模式](pattern/structural/adapter/interface.md)
     * [桥接模式](pattern/structural/bridge.md)
+    * [装饰模式](pattern/structural/decorator.md)
   * [behavioral](pattern/behavioral/README.md)
 

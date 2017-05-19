@@ -55,11 +55,12 @@ public class DecoratorTest {
 
 输出：
 
-```
+```  xml
 before decorator!
 the original method!
 after decorator!
 ```
+
 
 
 装饰器模式的应用场景：
