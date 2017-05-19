@@ -55,7 +55,7 @@ public class DecoratorTest {
 
 输出：
 
-```  xml
+```
 before decorator!
 the original method!
 after decorator!
