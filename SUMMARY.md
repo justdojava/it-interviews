@@ -102,5 +102,6 @@
     * [桥接模式](pattern/structural/bridge.md)
     * [装饰模式](pattern/structural/decorator.md)
     * [代理模式](pattern/structural/proxy.md)
+    * [外观模式](pattern/structural/facade.md)
   * [behavioral](pattern/behavioral/README.md)
 
