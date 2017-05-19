@@ -104,5 +104,6 @@
     * [代理模式](pattern/structural/proxy.md)
     * [外观模式](pattern/structural/facade.md)
     * [组合模式](pattern/structural/composite.md)
+    * [享元模式](pattern/structural/flyweight.md)
   * [behavioral](pattern/behavioral/README.md)
 
