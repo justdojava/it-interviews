@@ -107,4 +107,9 @@
     * [享元模式](pattern/structural/flyweight.md)
   * [behavioral](pattern/behavioral/README.md)
     * [策略模式](pattern/behavioral/strategy.md)
+    * [模板方法模式](pattern/behavioral/template_method.md)
+    * [观察者模式](pattern/behavioral/observer.md)
+    * [迭代子模式](pattern/behavioral/iterator.md)
+    * [责任链模式](pattern/behavioral/chain_of_responsibility.md)
+    * [命令模式](pattern/behavioral/command.md)
 
