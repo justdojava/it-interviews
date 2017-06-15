@@ -106,4 +106,5 @@
     * [组合模式](pattern/structural/composite.md)
     * [享元模式](pattern/structural/flyweight.md)
   * [behavioral](pattern/behavioral/README.md)
+    * [策略模式](pattern/behavioral/strategy.md)
 
