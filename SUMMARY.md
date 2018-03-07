@@ -112,4 +112,6 @@
     * [迭代子模式](pattern/behavioral/iterator.md)
     * [责任链模式](pattern/behavioral/chain_of_responsibility.md)
     * [命令模式](pattern/behavioral/command.md)
+* [中间件](Middleware)
+  * [Redis](zhong-jian-jian/redis.md)
 
