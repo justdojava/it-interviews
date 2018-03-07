@@ -4,6 +4,8 @@
 
 ### [Github托管地址](https://github.com/justdojava/it-interview)
 
+---
+
 准备找时间整理一下IT技术栈，大概分几块：
 
 * Java相关
