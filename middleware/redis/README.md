@@ -1,3 +1,5 @@
+## Redis面试刁难大全 {#activity-name}
+
 Redis有哪些数据结构？
 
 字符串String、字典Hash、列表List、集合Set、有序集合SortedSet。
@@ -26,8 +28,7 @@ Redis有哪些数据结构？
 
 一般使用list结构作为队列，rpush生产消息，lpop消费消息。当lpop没有消息的时候，要适当sleep一会再重试。
 
-如果对方追问可不可以不用sleep呢？list还有个指令叫blpop，在没有消息的时候，它会阻塞住直到消息到来。  
-
+如果对方追问可不可以不用sleep呢？list还有个指令叫blpop，在没有消息的时候，它会阻塞住直到消息到来。
 
 如果对方追问能不能生产一次消费多次呢？使用pub/sub主题订阅者模式，可以实现1:N的消息队列。
 
@@ -57,14 +58,11 @@ Redis的同步机制了解么？
 
 Redis可以使用主从同步，从从同步。第一次同步时，主节点做一次bgsave，并同时将后续修改操作记录到内存buffer，待完成后将rdb文件全量同步到复制节点，复制节点接受完成后将rdb镜像加载到内存。加载完成后，再通知主节点将期间修改的操作记录同步到复制节点进行重放就完成了同步过程。
 
-是否使用过Redis集群，集群的原理是什么？  
-
+是否使用过Redis集群，集群的原理是什么？
 
 Redis Sentinal着眼于高可用，在master宕机时会自动将slave提升为master，继续提供服务。
 
 Redis Cluster着眼于扩展性，在单个redis内存不足时，使用Cluster进行分片存储。
 
-
-
-参考：https://mp.weixin.qq.com/s/507jyNbL4xCkxyW6Xk15Xg
+参考：[https://mp.weixin.qq.com/s/507jyNbL4xCkxyW6Xk15Xg](https://mp.weixin.qq.com/s/507jyNbL4xCkxyW6Xk15Xg)
 
